@@ -58,11 +58,15 @@ a{
 
 button:active{
     background-color: greenyellow;
-    color: black;
+    
 }
 
 .btn{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+button:active a{
+  color: black;
 }
